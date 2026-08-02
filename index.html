@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Essenza — Condomínio fechado em Santarém/PA | Amauri Assessoria Imobiliária</title>
+<meta name="description" content="Essenza: condomínio fechado com portaria 24h, mais de 5.000 m² de área de lazer completa, na Av. Dom Frederico Costa, Santarém/PA. Lotes de 300 m² com condições facilitadas. Comercialização Amauri.">
+<meta name="theme-color" content="#0b0d10">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Essenza — o novo endereço da sua família em Santarém">
+<meta property="og:description" content="Condomínio fechado, segurança 24h e mais de 5.000 m² de lazer. Entrada a partir de R$ 10.000,00. Comercializado por Amauri.">
+<meta property="og:image" content="assets/img/renders/portaria.webp">
+
+<!-- Fontes auto-hospedadas (sem conexão a terceiros) -->
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/fraunces.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/inter.woff2" crossorigin>
+
+<link rel="preload" as="image" href="assets/img/hero-poster-900.webp" media="(max-width:860px)" fetchpriority="high">
+<link rel="preload" as="image" href="assets/img/hero-poster.webp" media="(min-width:861px)" fetchpriority="high">
+<link rel="stylesheet" href="assets/css/styles.css">
+
+<!-- Ícones de interface (sprite). Os ícones de seção são SVGs em assets/img/icons/ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 11h12.2l-4.6-4.6L13 5l7 7-7 7-1.4-1.4 4.6-4.6H4z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M9.3 17.3 4 12l1.5-1.5 3.8 3.8 9.2-9.2L20 6.6z"/></symbol>
+  <symbol id="i-chev-left" viewBox="0 0 24 24"><path d="M15.4 5.4 14 4l-8 8 8 8 1.4-1.4L8.8 12z"/></symbol>
+  <symbol id="i-chev-right" viewBox="0 0 24 24"><path d="M8.6 5.4 10 4l8 8-8 8-1.4-1.4L15.2 12z"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path class="ds" d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7z"/><circle cx="12" cy="9" r="2.6"/></symbol>
+</svg>
+
+<!-- SLOT DE RASTREAMENTO — Meta Pixel (inserir o ID quando o cliente enviar) -->
+<!-- SLOT DE RASTREAMENTO — Google Tag / GA4 (inserir o ID quando o cliente enviar) -->
+</head>
+<body>
+
+<!-- ===================== HEADER ===================== -->
+<header class="header" id="topo">
+  <div class="container header__inner">
+    <a href="#topo" class="header__logo" aria-label="Essenza — Condomínio">
+      <img src="assets/img/logos/essenza-white.svg" alt="Essenza Condomínio" width="130" height="24">
+    </a>
+    <nav class="nav" aria-label="Navegação principal">
+      <a href="#empreendimento">O Essenza</a>
+      <a href="#lazer">Lazer</a>
+      <a href="#diferenciais">Diferenciais</a>
+      <a href="#amauri">A Amauri</a>
+      <a href="#precos">Condições</a>
+    </nav>
+    <div class="header__cta">
+      <!-- CTA — link do formulário será adicionado depois -->
+      <button type="button" class="btn btn--outline-light" data-cta>Quero meu lote <span class="btn__ico"><svg><use href="#i-arrow"></use></svg></span></button>
+      <button type="button" class="burger" aria-label="Abrir menu" aria-expanded="false" data-menu-open><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobileNav" aria-hidden="true">
+  <button class="mobile-nav__close" aria-label="Fechar menu" data-menu-close>&times;</button>
+  <a href="#empreendimento"><em>01</em>O Essenza</a>
+  <a href="#lazer"><em>02</em>Lazer</a>
+  <a href="#diferenciais"><em>03</em>Diferenciais</a>
+  <a href="#amauri"><em>04</em>A Amauri</a>
+  <a href="#precos"><em>05</em>Condições</a>
+  <button type="button" class="btn btn--block" data-cta>Quero garantir meu lote <span class="btn__ico"><svg><use href="#i-arrow"></use></svg></span></button>
+</div>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="hero">
+  <div class="hero__media">
+    <!-- imagem de capa = LCP (o navegador escolhe a resolução); o vídeo entra por cima depois -->
+    <img class="hero__poster" src="assets/img/hero-poster.webp"
+         srcset="assets/img/hero-poster-900.webp 900w, assets/img/hero-poster.webp 1600w"
+         sizes="100vw" alt="" aria-hidden="true" fetchpriority="high" decoding="async" width="1600" height="900">
+    <video class="hero__video" muted loop playsinline preload="none" aria-hidden="true"
+           data-src-desktop="assets/video/hero-1080.mp4" data-src-mobile="assets/video/hero-720.mp4"></video>
+  </div>
+  <div class="hero__scrim"></div>
+  <div class="hero__grain"></div>
+
+  <div class="container hero__inner">
+    <div class="hero__addr"><svg><use href="#i-pin"></use></svg> Av. Dom Frederico Costa · Santarém / PA</div>
+    <h1 class="h-display">O endereço certo para sua família <em>viver bem</em>.</h1>
+    <p class="hero__sub">Segurança, tranquilidade e o estilo de vida que ela merece, em um condomínio fechado com portaria e controle de acesso, mais de 5.000 m² de lazer e a confiança de 14 anos da Amauri.</p>
+
+    <ul class="hero__facts">
+      <li><span class="tick"><svg><use href="#i-check"></use></svg></span> Portaria com controle de acesso</li>
+      <li><span class="tick"><svg><use href="#i-check"></use></svg></span> +5.000 m² de área de lazer completa</li>
+      <li><span class="tick"><svg><use href="#i-check"></use></svg></span> Avenida arborizada, chegada nobre</li>
+    </ul>
+
+    <div class="hero__actions">
+      <button type="button" class="btn btn--lg" data-cta>Quero garantir meu lote <span class="btn__ico"><svg><use href="#i-arrow"></use></svg></span></button>
+      <div class="hero__price">
+        <span class="from">Entrada a partir de</span>
+        <span class="val">R$ 10.000 <small>+ 60x de R$ 3.500</small></span>
+      </div>
+    </div>
+  </div>
+
+  <a href="#prova" class="hero__scroll">Role para descobrir <span class="line"></span></a>
+</section>
+
+<!-- ===================== PROVA SOCIAL ===================== -->
+<section class="section proof glow has-bg" id="prova">
+  <div class="section-media">
+    <img src="assets/img/renders/aerial.webp" alt="" aria-hidden="true" loading="lazy" decoding="async" data-parallax="0.18">
+    <div class="ov ov--dark"></div>
+  </div>
+  <div class="container">
+    <p class="proof__label proof__label--top reveal">A procura começou antes do lançamento</p>
+    <div class="proof__stat reveal" data-d="1">
+      <span class="proof__num" data-count="43">43</span>
+      <span class="proof__den">/ 121</span>
+    </div>
+    <p class="proof__label proof__label--mid reveal" data-d="1">lotes vendidos antes do lançamento oficial</p>
+    <h2 class="proof__head reveal" data-d="2">A procura começou antes de você. <em>Agora ela é sua.</em></h2>
+  </div>
+</section>
+
+<!-- ===================== LOCALIZAÇÃO ===================== -->
+<section class="section" id="localizacao">
+  <div class="container">
+    <div class="split">
+      <div class="split__media reveal">
+        <div class="frame">
+          <img src="assets/img/renders/portaria.webp" loading="lazy" decoding="async" data-parallax="0.1"
+               alt="Portaria de acesso do condomínio Essenza, com arquitetura moderna e paisagismo de palmeiras">
+          <div class="badge">10&nbsp;min <small>do centro de Santarém</small></div>
+        </div>
+      </div>
+      <div class="split__body">
+        <h2 class="h-section block-title reveal">Viver bem começa pelo <em>lugar certo</em>.</h2>
+        <div class="copy lead reveal" data-d="1">
+          <p>O Essenza fica na Av. Dom Frederico Costa, um dos principais eixos em expansão da zona leste de Santarém, com chegada nobre e arborizada ao condomínio. A avenida está recebendo pavimentação nova e vem se tornando alternativa direta à rodovia Santarém-Curuá-Una. Isso significa mais acesso, mais infraestrutura e mais valorização para quem compra agora.</p>
+        </div>
+        <ul class="feature-list reveal" data-d="2">
+          <li><span class="mark"><svg><use href="#i-check"></use></svg></span> Vias largas com paisagismo de palmeiras e circulação interna planejada</li>
+          <li><span class="mark"><svg><use href="#i-check"></use></svg></span> Portaria com controle de acesso, segurança na entrada e saída</li>
+          <li><span class="mark"><svg><use href="#i-check"></use></svg></span> Menos de 10 minutos do centro de Santarém</li>
+          <li><span class="mark"><svg><use href="#i-check"></use></svg></span> Entre as ruas Marcílio Dias e Beija-Flor</li>
+        </ul>
+        <p class="closing-line reveal" data-d="2">Segurança e tranquilidade começam já na chegada.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== EMPREENDIMENTO ===================== -->
+<section class="section" id="empreendimento" style="background:var(--paper)">
+  <div class="container">
+    <div class="split">
+      <div class="split__body">
+        <h2 class="h-section block-title reveal">Um projeto pensado para <em>cada detalhe</em> da vida da sua família.</h2>
+        <div class="copy lead reveal" data-d="1">
+          <p>O Essenza reúne <strong>121 lotes</strong> em um projeto planejado por inteiro, com toda a área de lazer concentrada na entrada nobre do condomínio, para que conforto, convivência e segurança estejam sempre por perto. As ruas internas são arborizadas, pensadas para dar mais tranquilidade e identidade a cada quadra.</p>
+        </div>
+        <ul class="feature-list reveal" data-d="2">
+          <li><span class="mark"><svg><use href="#i-check"></use></svg></span> <span><strong>Lotes de 300 m²</strong>, com topografia plana, o que facilita o projeto da sua construção</span></li>
+          <li><span class="mark"><svg><use href="#i-check"></use></svg></span> Toda a área de lazer concentrada na entrada nobre</li>
+          <li><span class="mark"><svg><use href="#i-check"></use></svg></span> Ruas internas arborizadas, com identidade em cada quadra</li>
+        </ul>
+        <p class="closing-line reveal" data-d="2">Cada quadra foi pensada para que sua família tenha espaço de sobra para viver bem.</p>
+      </div>
+      <div class="split__media reveal" data-d="1">
+        <div class="frame">
+          <img src="assets/img/renders/masterplan.webp" loading="lazy" decoding="async" data-parallax="0.1"
+               alt="Vista aérea do condomínio Essenza mostrando as ruas planejadas e a área de lazer na entrada">
+          <div class="badge">121 <small>lotes planejados</small></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ÁREA DE LAZER ===================== -->
+<section class="section leisure" id="lazer">
+  <div class="container">
+    <div class="leisure__head">
+      <h2 class="h-section reveal">Um <em>clube</em> dentro de casa.</h2>
+      <p class="lead reveal" data-d="1">Espaço para treinar, relaxar e conviver em família todos os dias, a poucos passos de casa e sem sair do condomínio.</p>
+    </div>
+
+    <div class="amenities">
+      <article class="amenity amenity--stat reveal">
+        <div class="amenity--stat__num">+5.000<span>m²</span></div>
+        <p>de área de lazer completa, pensada para cada momento da sua família.</p>
+      </article>
+
+      <article class="amenity reveal" data-d="1">
+        <img class="ico" src="assets/img/icons/piscinas.svg" alt="" width="56" height="56" loading="lazy" decoding="async">
+        <h3>Piscinas adulto e infantil</h3>
+        <p>Com deck, espreguiçadeiras e paisagismo tropical.</p>
+      </article>
+      <article class="amenity reveal" data-d="2">
+        <img class="ico" src="assets/img/icons/academia.svg" alt="" width="56" height="56" loading="lazy" decoding="async">
+        <h3>Academia de ponta</h3>
+        <p>Equipamentos de última geração para um treino completo sem sair de casa.</p>
+      </article>
+      <article class="amenity reveal" data-d="1">
+        <img class="ico" src="assets/img/icons/quadras.svg" alt="" width="56" height="56" loading="lazy" decoding="async">
+        <h3>Quadras esportivas</h3>
+        <p>Basquete, vôlei, areia e tênis. Esporte para todas as idades.</p>
+      </article>
+      <article class="amenity reveal" data-d="2">
+        <img class="ico" src="assets/img/icons/pista.svg" alt="" width="56" height="56" loading="lazy" decoding="async">
+        <h3>Pista de caminhada</h3>
+        <p>Circuito arborizado para caminhar e correr com tranquilidade.</p>
+      </article>
+      <article class="amenity reveal" data-d="1">
+        <img class="ico" src="assets/img/icons/playground.svg" alt="" width="56" height="56" loading="lazy" decoding="async">
+        <h3>Playground infantil</h3>
+        <p>Área segura para as crianças brincarem e crescerem em paz.</p>
+      </article>
+      <article class="amenity reveal" data-d="2">
+        <img class="ico" src="assets/img/icons/praca.svg" alt="" width="56" height="56" loading="lazy" decoding="async">
+        <h3>Praça de convívio</h3>
+        <p>Bancos, mesas e sombra para os encontros da vizinhança.</p>
+      </article>
+
+      <article class="amenity amenity--wide reveal">
+        <img class="ico" src="assets/img/icons/salao.svg" alt="" width="56" height="56" loading="lazy" decoding="async">
+        <div class="amenity__body">
+          <h3>Salão de festas</h3>
+          <p>Espaço de uso comum para celebrar os momentos importantes com quem você ama.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== GALERIA / CARROSSEL ===================== -->
+<section class="section gallery glow" id="galeria">
+  <div class="container">
+    <div class="gallery__head">
+      <h2 class="h-section reveal">Conheça o Essenza <em>por dentro</em>.</h2>
+      <p class="lead reveal" data-d="1" style="color:rgba(244,241,234,.7);max-width:38ch">Perspectivas do projeto: da chegada nobre à área de lazer completa. Imagens ilustrativas.</p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="carousel" data-carousel>
+      <div class="carousel__track" data-track>
+        <figure class="slide"><img src="assets/img/renders/portaria.webp" loading="lazy" decoding="async" alt="Portaria de acesso do Essenza"><figcaption class="slide__cap"><span class="n">01</span> Portaria &amp; controle de acesso</figcaption></figure>
+        <figure class="slide"><img src="assets/img/renders/pools.webp" loading="lazy" decoding="async" alt="Piscinas do Essenza"><figcaption class="slide__cap"><span class="n">02</span> Piscinas adulto e infantil</figcaption></figure>
+        <figure class="slide"><img src="assets/img/renders/sports.webp" loading="lazy" decoding="async" alt="Arena esportiva do Essenza"><figcaption class="slide__cap"><span class="n">03</span> Arena esportiva</figcaption></figure>
+        <figure class="slide"><img src="assets/img/renders/praca-1.webp" loading="lazy" decoding="async" alt="Praça de convívio e pista de caminhada do Essenza"><figcaption class="slide__cap"><span class="n">04</span> Praça &amp; pista de caminhada</figcaption></figure>
+        <figure class="slide"><img src="assets/img/renders/praca-2.webp" loading="lazy" decoding="async" alt="Chegada ao condomínio Essenza pela portaria"><figcaption class="slide__cap"><span class="n">05</span> Chegada ao condomínio</figcaption></figure>
+        <figure class="slide"><img src="assets/img/renders/masterplan.webp" loading="lazy" decoding="async" alt="Masterplan do Essenza"><figcaption class="slide__cap"><span class="n">06</span> Masterplan · 121 lotes</figcaption></figure>
+        <figure class="slide"><img src="assets/img/renders/aerial.webp" loading="lazy" decoding="async" alt="Vista aérea do condomínio Essenza"><figcaption class="slide__cap"><span class="n">07</span> Vista aérea do condomínio</figcaption></figure>
+      </div>
+      <div class="carousel__controls">
+        <button class="carousel__btn" data-prev aria-label="Anterior"><svg><use href="#i-chev-left"></use></svg></button>
+        <button class="carousel__btn" data-next aria-label="Próximo"><svg><use href="#i-chev-right"></use></svg></button>
+        <div class="carousel__progress"><span data-progress></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== DIFERENCIAIS ===================== -->
+<section class="section" id="diferenciais">
+  <div class="container">
+    <div class="diff__head">
+      <h2 class="h-section reveal">Por que o Essenza é o novo endereço de quem quer <em>viver bem</em> em Santarém.</h2>
+    </div>
+    <div class="diff-grid">
+      <article class="diff-item reveal">
+        <img class="ico" src="assets/img/icons/seguranca.svg" alt="" width="56" height="56" loading="lazy" decoding="async">
+        <h3>Segurança 24h</h3>
+        <p>Portaria com controle de acesso e segurança na entrada e na saída.</p>
+      </article>
+      <article class="diff-item reveal" data-d="1">
+        <img class="ico" src="assets/img/icons/lazer-familia.svg" alt="" width="56" height="56" loading="lazy" decoding="async">
+        <h3>Lazer para a família</h3>
+        <p>Um espaço de lazer completo, pensado para todas as idades.</p>
+      </article>
+      <article class="diff-item reveal" data-d="2">
+        <img class="ico" src="assets/img/icons/localizacao.svg" alt="" width="56" height="56" loading="lazy" decoding="async">
+        <h3>Localização nobre</h3>
+        <p>Avenida arborizada e em plena expansão, a minutos do centro.</p>
+      </article>
+      <article class="diff-item reveal">
+        <img class="ico" src="assets/img/icons/ambiente-tranquilo.svg" alt="" width="56" height="56" loading="lazy" decoding="async">
+        <h3>Ambiente tranquilo</h3>
+        <p>O lugar certo para os filhos crescerem em paz, com muito verde.</p>
+      </article>
+      <article class="diff-item reveal" data-d="1">
+        <img class="ico" src="assets/img/icons/pagamento.svg" alt="" width="56" height="56" loading="lazy" decoding="async">
+        <h3>Pagamento facilitado</h3>
+        <p>Condições facilitadas de pagamento, direto com a construtora.</p>
+      </article>
+      <article class="diff-item reveal" data-d="2">
+        <img class="ico" src="assets/img/icons/acompanhamento.svg" alt="" width="56" height="56" loading="lazy" decoding="async">
+        <h3>Acompanhamento até as chaves</h3>
+        <p>Atendimento consultivo e próximo da Amauri, do primeiro contato à entrega das chaves.</p>
+      </article>
+    </div>
+    <p class="diff__closing reveal">Não é só um lote. É a tranquilidade de <span class="accent">viver bem</span>, todos os dias, sem preocupação.</p>
+  </div>
+</section>
+
+<!-- ===================== A AMAURI ===================== -->
+<section class="section amauri glow" id="amauri">
+  <div class="container">
+    <div class="amauri__grid">
+      <div class="amauri__body reveal">
+        <img class="amauri__logo" src="assets/img/logos/amauri-white.webp" alt="Amauri Assessoria Imobiliária" width="220" height="110">
+        <h2 class="h-section" style="color:var(--cream)">Uma imobiliária que Santarém já <em>confia há 14 anos</em>.</h2>
+        <p class="lead" style="margin-top:22px">O Essenza é comercializado pela Amauri Assessoria Imobiliária, uma das imobiliárias que mais crescem em Santarém e região, reconhecida pelo atendimento próximo e humano em cada negociação.</p>
+        <p class="amauri__quote">Comprar um lote muda o rumo de uma família. Essa decisão pede mais do que um vendedor: pede alguém que te acompanha até as chaves na mão.</p>
+      </div>
+      <figure class="amauri__figure reveal" data-d="1">
+        <img class="amauri__photo" src="assets/img/amauri-foto.webp" width="816" height="1400" loading="lazy" decoding="async"
+             alt="Amauri, da Amauri Assessoria Imobiliária">
+        <figcaption class="amauri__stats">
+          <div class="astat"><span class="n">14</span><span class="l">anos de atuação</span></div>
+          <div class="astat"><span class="n">43</span><span class="l">lotes vendidos</span></div>
+          <div class="astat"><span class="n">121</span><span class="l">lotes planejados</span></div>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONDIÇÕES ===================== -->
+<section class="section pricing" id="precos">
+  <div class="container">
+    <div class="pricing__head">
+      <h2 class="h-section reveal">Condição facilitada para você <em>garantir o seu</em>.</h2>
+    </div>
+    <div class="plans">
+      <article class="plan plan--featured reveal">
+        <div class="plan__tag"><span class="dot"></span> Disponível · última oportunidade</div>
+        <div class="plan__size">Lote 300 m²</div>
+        <div class="plan__status">Topografia plana</div>
+        <div class="plan__entry"><div class="k">Entrada a partir de</div><div class="v">R$ 10.000,00</div></div>
+        <ul class="plan__rows">
+          <li><span class="k">+ 60 parcelas de</span><span class="v">R$ 3.500,00</span></li>
+          <li><span class="k">+ 10 parcelas intercaladas de</span><span class="v">R$ 10.000,00</span></li>
+          <li><span class="k">+ na entrega das chaves</span><span class="v">R$ 30.000,00</span></li>
+        </ul>
+        <div class="plan__total"><span class="k">Valor total</span><span class="v">R$ 350.000,00</span></div>
+        <button type="button" class="btn btn--block" data-cta>Quero simular meu lote <span class="btn__ico"><svg><use href="#i-arrow"></use></svg></span></button>
+      </article>
+      <article class="plan plan--sold reveal" data-d="1">
+        <div class="plan__tag" style="color:var(--muted)"><span class="dot"></span> Esgotado</div>
+        <div class="plan__size">Lote 450 m²</div>
+        <div class="plan__status">Vendido</div>
+        <div class="plan__entry"><div class="k">Valor</div><div class="v">R$ 490.000,00</div></div>
+        <div class="plan__soldstamp">Todos os lotes de 450 m² já foram vendidos.</div>
+      </article>
+    </div>
+    <p class="pricing__note reveal">A simulação completa e personalizada é feita com um consultor. Os lotes de 450 m² já foram todos vendidos. Os de <strong>300 m² são a última oportunidade disponível</strong> no Essenza.</p>
+    <div class="pricing__cta reveal">
+      <button type="button" class="btn btn--lg" data-cta>Falar com um consultor <span class="btn__ico"><svg><use href="#i-arrow"></use></svg></span></button>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FAQ ===================== -->
+<section class="section faq" id="faq">
+  <div class="container">
+    <div class="faq__grid">
+      <div><h2 class="h-section reveal">Tudo o que você precisa saber sobre o <em>Essenza</em>.</h2></div>
+      <div class="accordion reveal" data-d="1">
+        <div class="acc-item">
+          <button class="acc-q" aria-expanded="false">Onde fica o Essenza?<span class="acc-ico"></span></button>
+          <div class="acc-a"><div class="acc-a__inner">Na Av. Dom Frederico Costa, entre as ruas Marcílio Dias e Beija-Flor, a menos de 10 minutos do centro de Santarém.</div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-q" aria-expanded="false">Quais lotes ainda estão disponíveis?<span class="acc-ico"></span></button>
+          <div class="acc-a"><div class="acc-a__inner">Os lotes de 450 m² já foram totalmente comercializados. Ainda há lotes de 300 m² disponíveis.</div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-q" aria-expanded="false">O condomínio tem segurança?<span class="acc-ico"></span></button>
+          <div class="acc-a"><div class="acc-a__inner">Sim. O Essenza conta com portaria, segurança armada 24h e controle de acesso na entrada e na saída.</div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-q" aria-expanded="false">Como funciona o pagamento?<span class="acc-ico"></span></button>
+          <div class="acc-a"><div class="acc-a__inner">A entrada é a partir de R$ 10.000,00, mais 60 parcelas de R$ 3.500,00, mais 10 parcelas intercaladas de R$ 10.000,00 e R$ 30.000,00 na entrega das chaves. Preencha o formulário e um consultor te chama com a simulação completa.</div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-q" aria-expanded="false">O condomínio já tem infraestrutura pronta?<span class="acc-ico"></span></button>
+          <div class="acc-a"><div class="acc-a__inner">O Essenza está em fase de lançamento e implantação, com toda a estrutura de lazer, ruas e paisagismo projetada conforme apresentado nesta página.</div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-q" aria-expanded="false">Posso agendar uma visita ao terreno?<span class="acc-ico"></span></button>
+          <div class="acc-a"><div class="acc-a__inner">Sim. Preencha o formulário que um consultor da Amauri agenda a sua visita.</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CTA FINAL ===================== -->
+<section class="final" id="final">
+  <div class="final__media">
+    <img src="assets/img/renders/praca-1.webp" loading="lazy" decoding="async" data-parallax="0.14"
+         alt="Família aproveitando as áreas de convívio arborizadas do condomínio Essenza">
+  </div>
+  <div class="final__scrim"></div>
+  <div class="container">
+    <span class="kicker kicker--light reveal"><span class="dot"></span> Últimos lotes de 300 m²</span>
+    <h2 class="h-display reveal" data-d="1">É assim que sua família <em>vai viver</em>.</h2>
+    <p class="final__sub reveal" data-d="1">A procura pelo Essenza começou antes mesmo do lançamento oficial. Fale agora com um consultor da Amauri Assessoria Imobiliária e garanta o seu.</p>
+    <div class="final__actions reveal" data-d="2">
+      <button type="button" class="btn btn--lg" data-cta>Quero falar com um consultor agora <span class="btn__ico"><svg><use href="#i-arrow"></use></svg></span></button>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <img class="footer__logo" src="assets/img/logos/essenza-white.svg" alt="Essenza Condomínio" width="190" height="36">
+        <p class="footer__addr">Av. Dom Frederico Costa, entre Marcílio Dias e Beija-Flor, em Santarém/PA. A menos de 10 minutos do centro.</p>
+        <div class="footer__partners">
+          <div class="footer__partner">
+            <span>Comercialização</span>
+            <img class="amauri-logo" src="assets/img/logos/amauri-white.webp" alt="Amauri Assessoria Imobiliária" width="150" height="75" loading="lazy">
+          </div>
+          <div class="footer__partner">
+            <span>Realização</span>
+            <span class="ribeiro-chip"><img src="assets/img/logos/ribeiro.webp" alt="Ribeiro Engenharia" width="118" height="39" loading="lazy"></span>
+          </div>
+        </div>
+        <p class="footer__creci">CRECI J938</p>
+      </div>
+      <div>
+        <h4>Navegue</h4>
+        <ul class="footer__links">
+          <li><a href="#empreendimento">O Empreendimento</a></li>
+          <li><a href="#lazer">Área de Lazer</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#diferenciais">Diferenciais</a></li>
+          <li><a href="#precos">Condições de Pagamento</a></li>
+          <li><a href="#faq">Perguntas Frequentes</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Garanta seu lote</h4>
+        <ul class="footer__links">
+          <li><a href="#hero">Lotes de 300 m²</a></li>
+          <li><a href="#precos">Entrada a partir de R$ 10.000</a></li>
+        </ul>
+        <!-- CTA — link do formulário será adicionado depois -->
+        <button type="button" class="btn btn--block" data-cta style="margin-top:20px">Quero garantir meu lote <span class="btn__ico"><svg><use href="#i-arrow"></use></svg></span></button>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 Amauri Assessoria Imobiliária · Essenza</span>
+      <span>Santarém / Pará</span>
+    </div>
+    <p class="footer__legal">Imagens meramente ilustrativas. Empreendimento sujeito a disponibilidade de lotes e a alterações no projeto sem aviso prévio. Consulte condições comerciais atualizadas com um consultor. Amauri Assessoria Imobiliária, CRECI J938.</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
