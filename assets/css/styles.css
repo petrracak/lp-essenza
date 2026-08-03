@@ -113,6 +113,7 @@ body{
   -webkit-background-clip:text;background-clip:text;
   -webkit-text-fill-color:transparent;color:transparent;
   animation:shimmer 7s ease-in-out infinite;
+  text-shadow:none; /* a sombra do texto ao redor não deve cair sobre o gradiente, senão ele escurece */
 }
 @keyframes shimmer{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
 @media (prefers-reduced-motion:reduce){.h-display em,.h-section em,.accent{animation:none}}
