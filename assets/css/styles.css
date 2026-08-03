@@ -353,7 +353,7 @@ body{
 /* ---------- Amauri ---------- */
 .amauri{background:var(--ink);color:var(--cream)}
 .amauri__grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(36px,6vw,90px);align-items:center}
-.amauri__logo{width:220px;margin-bottom:30px}
+.amauri__logo{width:220px;height:auto;margin-bottom:30px}
 .amauri .lead{color:rgba(244,241,234,.72)}
 .amauri__quote{margin-top:30px;padding-left:22px;border-left:2px solid rgba(221,165,116,.45);
   font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(1.25rem,2.2vw,1.7rem);line-height:1.3;color:var(--cream);text-wrap:pretty}
@@ -477,7 +477,7 @@ body{
   .leisure__head{grid-template-columns:1fr;gap:20px}
   .gallery__head{flex-direction:column;align-items:flex-start;gap:16px}
   .amauri__grid{grid-template-columns:1fr;gap:44px}
-  .amauri__logo{width:150px;margin-bottom:26px}
+  .amauri__logo{width:150px;height:auto;margin-bottom:26px}
   .plans{grid-template-columns:1fr}
   .plan--featured{order:-1}
   .faq__grid{grid-template-columns:1fr;gap:28px}
