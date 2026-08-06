@@ -444,7 +444,7 @@ body{
 .footer__partner{display:flex;flex-direction:column;gap:9px}
 .footer__partner span{font-size:.66rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(244,241,234,.42)}
 .footer__partner .amauri-logo{width:150px;height:auto}
-.footer__partner .ribeiro-logo{width:118px;height:auto}
+.footer__partner .ribeiro-logo{width:auto;height:75px}
 .footer h4{font-size:.72rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--bronze-soft);margin-bottom:18px}
 .footer__links li+li{margin-top:10px}
 .footer__links a{font-size:.94rem;transition:color .3s var(--ease)}
