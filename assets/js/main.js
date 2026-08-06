@@ -238,15 +238,4 @@
     update();
   })();
 
-  /* ---------- Ano no rodapé / CTAs (placeholder do formulário) ----------
-     Os botões [data-cta] ainda não têm destino. Quando o formulário estiver
-     pronto, basta trocar por <a href="LINK"> ou definir window.ESSENZA_FORM_URL. */
-  (function ctaPlaceholder() {
-    var url = window.ESSENZA_FORM_URL;
-    if (!url) return;
-    document.querySelectorAll("[data-cta]").forEach(function (b) {
-      b.addEventListener("click", function () { window.location.href = url; });
-    });
-  })();
-
 })();
