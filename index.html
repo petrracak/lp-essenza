@@ -36,7 +36,23 @@
   <symbol id="i-pin" viewBox="0 0 24 24"><path class="ds" d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7z"/><circle cx="12" cy="9" r="2.6"/></symbol>
 </svg>
 
-<!-- SLOT DE RASTREAMENTO — Meta Pixel (inserir o ID quando o cliente enviar) -->
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '27591944140476631');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=27591944140476631&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
 <!-- SLOT DE RASTREAMENTO — Google Tag / GA4 (inserir o ID quando o cliente enviar) -->
 </head>
 <body>
